@@ -1,3 +1,4 @@
+
 class Person:
     
     def __init__(self, firstname, lastname):
@@ -12,5 +13,4 @@ class Person:
     
     
     
-p1=Person('ghazal','hafezi')
-print(p1.email())
+
