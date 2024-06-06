@@ -18,7 +18,7 @@ class TakeTests(unittest.TestCase):
         
         
 class ChunksTests(unittest.TestCase):
-    
+
     
     def test_even(self):
         self.assertEqual(list(more.chunked(range(4),2)), [[0,1], [2,3]])
